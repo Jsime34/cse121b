@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaime Gutierrez Zevallos | CSE 121B | BYU-Idaho</title>
+    <link rel="stylesheet" href="/styles/final_project.css">
+</head>
+<body>
+    <h1>Jaime Gutierrez Zevallos | CSE 121B | BYU-Idaho</h1>
+    <h2>Pokemon searcher</h2>
+    <main id="task3">
+        <section id="section1">
+            <h2>Let's look for a Pokemon</h2>
+            <article>
+                <h3>Search by name</h3>
+                <div>
+                    <label for="our_input">Name/Pokedex number:</label>
+                    <input type="text" id="input" name="input">
+                </div>
+                <select id="type_search" title="Search Pokemon by: ">
+                    <option value="" disabled selected>Search by...</option>
+                    <option value="name">Name</option>
+                    <option value="by_id">Number of Pokedex</option>
+                </select>
+                <div>
+                    <input type="button" id="look" value="Search...">
+                </div>
+            </article>
+        </section>
+        <div id="pokemon_info">
+
+        </div>
+    </main>
+    <script src="/scripts/final_project.js"></script>
+</body>
+</html>
