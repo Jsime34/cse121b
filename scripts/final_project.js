@@ -70,3 +70,5 @@ function reset(){
         list.removeChild(list.firstChild);
     }
 }
+
+/* Final project - Jaime Gutierrez */
